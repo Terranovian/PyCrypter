@@ -179,4 +179,7 @@ if __name__ == "__main__":
 
 """ Things I would like to add
 * A form of key validation? to check that the correct key is being used for decryption?
+* A Key encryption key to encrypt the key, should the KEK be stored hardcoded in the program?
+* PBHKMDF whatever its called for password to key derivation for better security then .txt files
+* remove storing or accessing keys from files
 """
